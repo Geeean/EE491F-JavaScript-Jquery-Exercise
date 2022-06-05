@@ -1,0 +1,29 @@
+#sample1 {
+    border: solid .1em black;
+    margin: .1em;
+    padding: .1em;
+    font-size: 20px;
+}
+
+#child {
+    border: solid .1em black;
+    margin: .1em;
+    padding: .1em;
+    font-size: 20px;
+}
+
+.box {
+    background-color: plum;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+
+    border: 3px black;
+}
+
+div {
+    border: solid .2em black;
+    margin: .1em;
+    padding: .1em;
+    font-size: 20px;
+}

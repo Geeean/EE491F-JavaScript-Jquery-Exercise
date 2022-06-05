@@ -4,10 +4,177 @@
 <head>
     <link rel ="stylesheet" href="my_js_css.css">
     <meta charset ="UTF-8" />
-    
 </head>
+<h1> Button Test Website :)</h1>
+
+<div>
+    <p> click on the text below </p>
+    <p id ="hide"> How do bald people know when their foreheads ends?</p>
+</div>
+<! -- .add(), .children(), .each() -->
+<button id = "add1" type ="button"></button><br>
+<button id = "children" type ="button"></button><br>
+<button id = "each" type = "button"></button>
+
+<! -- changing colors and text -->
+<div id = "sample1">
+    <p> Watch the background change colors!!!</p>
+    <div id = "child">
+        <p> This text is going to change! </p> <br></div>
+        <div id ="child"> <p> Change me Please </p> </div>
+</div> <br>
 
 
+<! -- filter() -->
+<button id = "filter" type ="button"></button> <br>
+<p> What are my Favorite Deserts?</p>
+<div>
+    <div class ="box" id ="first">Milk Tea</div>
+    <div class ="box" id ="second">Cake</div>
+    <div class ="box" id ="third">Fruits</div>
+    <div class ="box" id ="fourth">Ice</div>
+    <div class ="box" id ="fifth">Ice Cream</div>
+    <div class ="box" id ="sixth">Fruit Salad</div>
+</div> <br>
+
+<! -- .find() -->
+<button id = "find" type ="button"></button><br>
+<div>
+    <p> .find() test </p>
+    <p> Watch me <span> Change color within a click</span></p>
+</div><br>
+
+<! -- first, last , parents, siblings, etc. -- >
+<button id ="firstb" type = "button"></button><br>
+<button id ="lastb" type = "button"></button><br>
+<button id ="hasb" type = "button"></button><br>
+<button id ="notb" type = "button"></button><br>
+<button id ="parentb" type = "button"></button><br>
+<button id ="parentsb" type = "button"></button><br>
+<button id ="clrparentsb" type = "button"></button><br>
+<button id ="sib" type = "button"></button><br>
+
+<div id ="lists">
+   <ul>
+       <li> Oranges</li>
+       <li> Kiwis
+       <ul>
+           <li id ="item2a"> Orange Juice</li>
+           <li> Eggs</li>
+       </ul>
+       </li>
+       <li id ="notlist"> Bacon</li>
+       <li> Rice
+           <ul>
+               <li id ="item4a"> Spam </li>
+               <li> Bread</li> 
+           </ul>
+       </li>
+       <li> Water </li>
+   </ul>
+</div> <br>
+
+<! -- .hover() -- >
+<div>
+    <p id = "hover"> Hover over me </p>
+</div>
+<div>
+    <p id = "offset"> off test / fade test </p> <br>
+    <button id = "offfade" type = "button"></button><br>
+    <button id = "offadein" type = "button"></button><br>
+    <button id = "offtoggle" type = "button"></button><br>
+    <button id = "offt" type = "button"></button>
+</div>
 
 
+<! -- .change() -- >
+<div>
+    <p> Tests for .change(), Type in the box then click outside the field </p>
+    <form>
+        <input class = "target" type = "text" value = "Text Input">
+    </form>
+</div>
+
+<! -- blur -- >
+<div>
+    <p> Test for .blur, Please enter something in the text </p> <br>
+    <form>
+        <input id = "targ" type = "text" value = " Text Input">
+    </form>
+</div>
+
+<! -- .focus() -->
+<div>
+    <p> Test for .focus() </p><br>
+    <form>
+        <input id = "targe" type = "text" value = "Text input">
+        <span> HAHAHA! </span> 
+    </form>
+</div>
+
+
+<div>
+    <p id ="hidetest"> Hide/Show/Slide Test</p>
+    <br>
+    <button id ="hideb" type="button"></button>
+    <br>
+    <button id ="showb" type="button"></button>
+    <br>
+    <button id ="slub" type="button"></button>
+    <br>
+    <button id ="sldb" type="button"></button>
+    <br>
+    <button id ="sltb" type="button"></button>
+  
+  </div>
+  
+  <div>
+    <button class = "yesclass" id ="hcb1"> hasClass test 1</button>
+    <button class = "yesclass" id ="hcb2"> hasClass test 2</button>
+    <button id="hcb3"> hasClass test 3</button>
+
+    <br>
+    <button id="rmc1"> Remove class for test1</button>
+    <br>
+    <button id="adc1"> Add class for test1</button>
+    <br>
+    <button id="tc1"> Toggle class for test3</button>
+  </div>
+
+  <div>
+    <img id="monkey" src="https://pbs.twimg.com/media/DvkRcveW0AAk5VV.jpg" width = "200" >
+    <br>
+    <button id="attb"> Change the width atrribute of the image </button>
+  </div>
+
+  <div>
+      <p id="app">Original Text</p>
+      <p id="app1">Original Text 2</p>
+      <p id="app2">Original Text 3</p>
+      <br>
+      <button id="adaf"> Add after</button>
+      <br>
+      <button id="adbf"> Add before</button>
+      <br>
+      <button id="appendb"> Append</button>
+      <br>
+      <button id="appendtb"> AppendTo</button>
+      <br>
+      <button id="prependb"> Prepend</button>
+      <br>
+      <button id="prependtb"> PrependTo</button>
+      <br>
+      <button id="rmvb"> Remove Original Text</button>
+      <br>
+      <button id="repl"> Replace Original Text 2</button>
+      <br>
+      <button id="replw"> Replace Original Text 3 With</button>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous"></script>
+
+<script src ="externaljs.js"></script>
 </html>
